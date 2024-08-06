@@ -1,0 +1,242 @@
+ .main-image {
+     background-image: url('https://c1.wallpaperflare.com/preview/572/985/277/hotel-neon-light-red.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     margin-top: 50px;
+ }
+
+ .holiday,
+ .card {
+     background-color: #e9f6ff;
+ }
+
+ .navbar {
+     background-color: #e9f6ff;
+ }
+
+ .holiday .navbar-nav {
+     display: flex;
+     align-items: center;
+ }
+
+ .main_2 .alldetailsbtns {
+     display: flex;
+     justify-content: center;
+     gap: 2rem;
+ }
+
+ .main_3 .alldetailsbtns {
+     display: flex;
+     justify-content: center;
+
+ }
+
+ .firstfooter {
+     display: flex;
+     justify-content: space-between;
+     gap: '2rem'
+ }
+
+ .secondfooter {
+     display: flex;
+     justify-content: space-between;
+     gap: 2rem;
+ }
+
+ .thirdfooter {
+     padding: 40px 0px 20px 0px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .footer-form {
+     width: 300px;
+     padding: 8px;
+     border: 1px solid gary;
+ }
+
+ .main4 .main_style {
+     padding: 14% 0px 9% 0%;
+     display: flex;
+     justify-content: center;
+     gap: 5.6rem;
+ }
+
+ .searchbaricon input {
+     width: 400px;
+     border-radius: 10px;
+     position: relative;
+ }
+
+ .searchbariconbtn {
+     position: absolute;
+     top: 38%;
+     left: 35%;
+ }
+
+ .main3 {
+     margin-top: 50px;
+ }
+
+ .main_3 .alldetailsbtns .allbtns button:hover {
+     background-color: black;
+     color: white;
+ }
+
+ .main_3 .dreamplaces .input,
+ .main_3 .searchbtn_search {
+     padding: 5px;
+ }
+
+ .main4 .card_image {
+     border-radius: 50%;
+     width: 150px;
+     position: absolute;
+     bottom: 60%;
+ }
+
+ .specialheading .specialheading_head,
+ .main3 .main3_head {
+     text-align: center;
+ }
+
+ .main4 .card {
+     width: 100%;
+     background-color: #cccc;
+ }
+
+ .main4 .card .card-title {
+     margin-top: 40px;
+     text-align: center;
+ }
+
+ .main_3 .main_main {
+     width: 82%;
+     padding: 20px 0px;
+ }
+
+ .icons_icons {
+     padding: 30px 0px 0px 0px;
+ }
+
+ .icons_icons .iconsfooter {
+     font-size: 28px;
+     padding: 0px 10px;
+ }
+
+
+
+ /* media queries  */
+ @media screen and (min-width:320px) and (max-width:768px) {
+     .main img {
+         width: 100%;
+         height: 300px;
+     }
+
+     .holiday .navbar-nav {
+         display: flex;
+         align-items: start;
+         padding: 10px 0px 10px 10px;
+     }
+
+     .main_2 .alldetailsbtns {
+         display: block;
+     }
+
+     .main_3 .alldetailsbtns {
+         display: block;
+     }
+
+     .main_2 .alldetailsbtns .allbtns button {
+         width: 100%;
+         margin: 10px 0px;
+         border-radius: 30px;
+     }
+
+     .firstfooter {
+         display: block;
+     }
+
+     .secondfooter {
+         display: block;
+     }
+
+     .thirdfooter {
+         display: block;
+     }
+
+     .main6 .copyemailnumber {
+         padding: 30px 0px;
+     }
+
+     .footer-form {
+         width: 64%;
+     }
+
+     .main4 .main_style {
+         padding: 32% 0px 10% 0%;
+         display: flex;
+         justify-content: center;
+         gap: 5.6rem;
+     }
+
+     .searchbariconbtn,
+     .searchbaricon input {
+         display: none;
+     }
+
+     .main2 .specialheading {
+         padding: 20px 0px 0px 0px !important;
+         text-align: center;
+     }
+
+     .main3 {
+         margin-top: 10px;
+         text-align: center;
+     }
+
+     .thirdfooter {
+         padding: 10px 0px 20px 0px;
+         justify-content: space-between;
+     }
+
+     .main_main {
+         margin: 0px 0px 0px 0px;
+     }
+
+     .dreamplaces input {
+         width: 100%;
+         border-radius: 10px;
+     }
+
+     .main_3 .dreamplaces_para {
+         margin: 20px 0px 10px 0px;
+     }
+
+     .main_3 .dreamplaces button {
+         width: 100%;
+         margin: 20px 0px 0px 0px;
+         border-radius: 10px;
+     }
+
+     .main3 img {
+         height: 300px;
+     }
+
+     .main4 .card_image {
+         width: 130px;
+     }
+
+     .main_3 .main_main {
+         width: 100%;
+         padding: 0px 13px;
+     }
+
+     .icons_icons {
+         padding: 0px;
+     }
+
+     /* padding: 0px 0px 0px 15px; */
+
+ }
